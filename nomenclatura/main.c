@@ -20,9 +20,9 @@ int main()
 
     printf("\n%d",&numero);
     printf("\n d-%p",punteroNumero);
-    printf("\nc-%p",&punteroNumero);
+    printf("\n c-%p",&punteroNumero);
     printf("\n d- %d",*punteroNumero);
-     //*punteroNumero=&numero;
-   //*punteroNumero=55;
+    //*punteroNumero=&numero;
+    //*punteroNumero=55;
     return 0;
 }
