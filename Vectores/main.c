@@ -10,7 +10,7 @@ int main()
     puntero=numeros;
     numeros[0]=9;
     numeros[1]=99;
-    numeros[2]=999;
+    numeros[888]=999;
     printf("\npuntero :%d",*(puntero-2));
     printf("\npuntero :%d",*(puntero+1));
     printf("\npuntero :%d",*(puntero+2));
@@ -31,6 +31,7 @@ void mostrar(int *puntero,int cantidad)
         printf("\nnumero :%d",*(puntero+ i));
     }
 }
+
 
 
 
